@@ -1,0 +1,18 @@
+name: ts
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - rise
+  - pillow
+  - matplotlib
+  - numpy
+  - pandas
+  - jupyter
+  - tskit
+  - msprime
+  - pip:
+    - pyslim
